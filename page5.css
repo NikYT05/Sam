@@ -1,0 +1,27 @@
+body {
+    background-image: url("raket.png"); /* Replace with your background image */
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars for falling hearts */
+}
+
+
+.container {
+    background-color: rgba(255, 245, 245, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #000000ac; 
+}
+
+
+
+

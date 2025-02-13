@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars for falling hearts */
+}
+
+
+.container {
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff; 
+}

@@ -1,0 +1,16 @@
+body {
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars for falling hearts */
+}
+
+
+.container {
+    text-align: center;
+}
+

@@ -1,0 +1,52 @@
+body {
+    background-image: url("background.jpg"); /* Replace with your background image */
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars for falling hearts */
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #e91e63; /* Pink color */
+}
+
+
+#message {
+    margin-bottom: 20px;
+}
+
+.heart {
+    position: absolute;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url("heart.png"); /* Replace with your heart image */
+    background-size: cover;
+    animation: falling 5s linear infinite; /* Adjust animation duration */
+}
+
+@keyframes falling {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
